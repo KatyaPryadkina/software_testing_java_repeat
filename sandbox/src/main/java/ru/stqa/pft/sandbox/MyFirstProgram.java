@@ -3,8 +3,12 @@ package ru.stqa.pft.sandbox;
 public class MyFirstProgram {
 
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
-        System.out.println(2 + 2);
+        System.out.println("Hello, world!");    //каждое значение хранится отдельно  впамяти компьютера, явно объявленные значений = литеральные (строка, число). А остальные вычисляемые (арифметика, конкатенация)
+
+        int l = 6;
+        int s = l * l;                                  //переменная =l, значение = 6
+        System.out.println("Площадь квадрата со стороно " + l + " = " + s);
+        /*System.out.println(2 + 2);
         System.out.println(2 * 2);
         System.out.println(2 / 2);
         System.out.println(2 - 2);
@@ -20,7 +24,9 @@ public class MyFirstProgram {
 
         System.out.println((2 + 2) * 2);
 
-        System.out.println("2 + 2 = " + (2 + 2));   //чтобы избежать склейки, брать вычисляемое выражение в скобки 
+        System.out.println("2 + 2 = " + (2 + 2));   //чтобы избежать склейки, брать вычисляемое выражение в скобки */
+
+
     }
 
 }
