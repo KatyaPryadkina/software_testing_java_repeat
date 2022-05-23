@@ -3,10 +3,11 @@ package ru.stqa.pft.sandbox;
 public class MyFirstProgram {
 
     public static void main(String[] args) {
-        System.out.println("Hello, world!");    //каждое значение хранится отдельно  впамяти компьютера, явно объявленные значений = литеральные (строка, число). А остальные вычисляемые (арифметика, конкатенация)
+        String somebody = "world!";
+        System.out.println("Hello, " +  somebody);    //каждое значение хранится отдельно  впамяти компьютера, явно объявленные значений = литеральные (строка, число). А остальные вычисляемые (арифметика, конкатенация)
 
-        int l = 6;
-        int s = l * l;                                  //переменная =l, значение = 6
+        double l = 6;                                       //переменная =l, значение = 6
+        double s = l * l;
         System.out.println("Площадь квадрата со стороно " + l + " = " + s);
         /*System.out.println(2 + 2);
         System.out.println(2 * 2);
