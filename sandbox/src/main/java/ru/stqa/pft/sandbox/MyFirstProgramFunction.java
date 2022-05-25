@@ -31,11 +31,11 @@ public class MyFirstProgramFunction {                       //класс=опи�
 
 
 //вывод на консоль площади треугольника
-        Triangle t = new Triangle();
-        t.a = 4;
+        Triangle t = new Triangle(4, 2, 45);
+        /*t.a = 4;
         t.b = 2;
-        t.l = 45;
-        System.out.println("Площадь треугольника со сторонами " + t.a + " и " + t.b + " углом  " + t.l + "'" + " = " + square(t) );
+        t.l = 45;*/
+        System.out.println("Площадь треугольника со сторонами " + t.a + " и " + t.b + " углом  " + t.l + "'" + " = " + t.square() );
 
     }
 
@@ -44,9 +44,7 @@ public class MyFirstProgramFunction {                       //класс=опи�
 
     }
 
-    public static double square(Triangle tr) {
-        return (((tr.a * tr.b)/2) * Math.sin(tr.l));
-    }
+
 
 
 }
