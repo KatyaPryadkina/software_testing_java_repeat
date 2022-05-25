@@ -1,4 +1,13 @@
+//конфиг.файл сборщика gradle
 apply plugin: 'java'
 apply plugin: 'application'
 mainClassName = "ru.stqa.pft.sandbox.MyFirstProgrammFunction"
+
+repositories {                              //репозиторий откуда брать
+    mavenCentral()
+}
+dependencies {                  //декларация зависимостей библиотек на сайте https://search.maven.org/ для Gradle Kotlin DSL . Документация на конфиг файл https://docs.gradle.org/current/userguide/tutorial_java_projects.html
+
+    implementation("org.testng:testng:7.5")
+}
 
