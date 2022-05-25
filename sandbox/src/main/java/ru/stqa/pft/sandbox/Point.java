@@ -1,0 +1,11 @@
+package ru.stqa.pft.sandbox;
+
+public class Point {
+    double x1;
+    double y1;
+    double x2;
+    double y2;
+
+
+
+}
